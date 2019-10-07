@@ -183,7 +183,7 @@ Resources:
               command: powershell.exe -Command Set-ExecutionPolicy UnRestricted -Force
               waitAfterCompletion: '0'
             2-rename-computer:
-              command: powershell.exe -Command Rename-Computer -NewName EC2DC -Restart
+              command: powershell.exe -Command Rename-Computer -NewName DC -Restart
               waitAfterCompletion: 'forever'
             # 3-set-dns-address:
             #   command:
@@ -278,7 +278,7 @@ Resources:
               command: powershell.exe -Command Set-ExecutionPolicy UnRestricted -Force
               waitAfterCompletion: '0'
             2-rename-computer:
-              command: powershell.exe -Command Rename-Computer -NewName EC2Web1 -Restart
+              command: powershell.exe -Command Rename-Computer -NewName Web1 -Restart
               waitAfterCompletion: 'forever'
             3-set-dns-address:
               command:
@@ -368,7 +368,7 @@ Resources:
               command: powershell.exe -Command Set-ExecutionPolicy UnRestricted -Force
               waitAfterCompletion: '0'
             2-rename-computer:
-              command: powershell.exe -Command Rename-Computer -NewName EC2Share1 -Restart
+              command: powershell.exe -Command Rename-Computer -NewName Share1 -Restart
               waitAfterCompletion: 'forever'
             3-set-dns-address:
               command:
@@ -458,7 +458,7 @@ Resources:
               command: powershell.exe -Command Set-ExecutionPolicy UnRestricted -Force
               waitAfterCompletion: '0'
             2-rename-computer:
-              command: powershell.exe -Command Rename-Computer -NewName EC2App1 -Restart
+              command: powershell.exe -Command Rename-Computer -NewName App1 -Restart
               waitAfterCompletion: 'forever'
             3-set-dns-address:
               command:
