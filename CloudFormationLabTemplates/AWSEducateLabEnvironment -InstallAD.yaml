@@ -137,7 +137,7 @@ Resources:
           Value: !Ref StudentName
         -
           Key: Name
-          Value: !Ref ServerOS
+          Value: DC
       UserData:
         Fn::Base64:
           Fn::Join:
@@ -241,7 +241,7 @@ Resources:
           Value: !Ref StudentName
         -
           Key: Name
-          Value: !Ref ServerOS
+          Value: Web1
       UserData:
         Fn::Base64:
           Fn::Join:
@@ -331,7 +331,7 @@ Resources:
           Value: !Ref StudentName
         -
           Key: Name
-          Value: !Ref ServerOS
+          Value: Share1
       UserData:
         Fn::Base64:
           Fn::Join:
@@ -421,7 +421,7 @@ Resources:
           Value: !Ref StudentName
         -
           Key: Name
-          Value: !Ref ServerOS
+          Value: App1
       UserData:
         Fn::Base64:
           Fn::Join:
